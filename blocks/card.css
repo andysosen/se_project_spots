@@ -3,6 +3,19 @@
   width: 100%;
   object-fit: cover;
   display: block;
+  margin-bottom: 12px;
+  border-radius: 16px;
+}
+
+.card__title {
+  margin: 0;
+  max-width: 353px;
+  font-size: 20px;
+  line-height: 120%;
+  font-weight: 500;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
 }
 
 .card__content {
@@ -18,10 +31,22 @@
   border: none;
   background-color: transparent;
   opacity: 40%;
+  cursor: pointer;
+}
+
+.card__like-btn:hover {
+  background-image: url(../images/heart.svg);
+  opacity: 80%;
 }
 
 @media screen and (max-width: 627px) {
   .card__image {
     height: 288px;
+  }
+
+  .card__title {
+    max-width: 95px;
+    font-size: 16px;
+    line-height: 100%;
   }
 }
