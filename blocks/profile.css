@@ -40,7 +40,7 @@
 
 .profile__edit-btn:hover {
   cursor: pointer;
-  opacity: 0.8;
+  opacity: 1;
 }
 .profile__avatar {
   margin-right: 20px;
@@ -115,6 +115,6 @@
     width: 100%;
   }
   .profile__edit-btn {
-    justify-self: center;
+    justify-content: center;
   }
 }
