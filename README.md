@@ -30,7 +30,7 @@ We did decide to use grid display for the cards, hoping to make it more consiste
 
 **GitHub**
 
-- [Link to the project on GitHub](https://github.com/andysosen/se_project_spots)
+- [Link to the project on GitHub](https://andysosen.github.io/se_project_spots/)
 
 **Video**
 
