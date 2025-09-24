@@ -28,9 +28,9 @@ We did decide to use grid display for the cards, hoping to make it more consiste
 
 - [Link to the project on Figma](https://www.figma.com/file/BBNm2bC3lj8QQMHlnqRsga/Sprint-3-Project-%E2%80%94-Spots?type=design&node-id=2%3A60&mode=design&t=afgNFybdorZO6cQo-1)
 
-**GitHub**
+**GitPages**
 
-- [Link to the project on GitHub](https://andysosen.github.io/se_project_spots/)
+- [Link to the project on GitPages](https://andysosen.github.io/se_project_spots/)
 
 **Video**
 
