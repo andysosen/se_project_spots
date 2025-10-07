@@ -109,12 +109,13 @@
       <footer class="footer">
         <p class="footer__copyright">2023 &copy; Spots</p>
       </footer>
-      <div class="modal mode_is-opened">
+      <div class="modal">
         <div class="modal__container">
           <button type="button" class="modal__close-btn">x</button>
           <h2 class="modal__title">Edit profile</h2>
           <form class="modal__form">
             <label for="profile-name-input" class="modal__label">
+              Name
               <input
                 id="profile-name-input"
                 type="text"
@@ -123,6 +124,35 @@
               />
             </label>
             <label for="profile-description-input" class="modal__label">
+              Descrption
+              <input
+                id="profile-description-input"
+                type="text"
+                class="modal__input"
+                placeholder="Describe yourself"
+              />
+            </label>
+            <button type="submit" class="modal_submit-btn">Save</button>
+          </form>
+        </div>
+      </div>
+      <div class="modal modal_is-opened">
+        <div class="modal__container">
+          <button type="button" class="modal__close-btn">x</button>
+          <h2 class="modal__title">New post</h2>
+          <form class="modal__form">
+            <label for="card-image-input" class="modal__label">
+              Image Link
+              <input
+                id="card-image-input"
+                type="url"
+                class="modal__input"
+                placeholder="Place a link to the picture"
+              />
+            </label>
+            <!-- update below -->
+            <label for="profile-description-input" class="modal__label">
+              Descrption
               <input
                 id="profile-description-input"
                 type="text"
