@@ -13,7 +13,7 @@
   <body>
     <div class="page">
       <header class="header">
-        <img src="/images/Logo.svg" alt="spot logo" class="header__logo" />
+        <img src="./images/Logo.svg" alt="spot logo" class="header__logo" />
       </header>
       <main class="content">
         <section class="profile page__section">
@@ -75,9 +75,7 @@
                 class="card__image"
               />
               <div class="card__content">
-                <h2 class="card__title">
-                  A very long bridge, over the forest...
-                </h2>
+                <h2 class="card__title">A very long bridge, over the forest</h2>
                 <button type="button" class="card__like-btn"></button>
               </div>
             </li>
@@ -111,7 +109,11 @@
       </footer>
       <div class="modal" id="edit-profile-modal">
         <div class="modal__container">
-          <button type="button" class="modal__close-btn">x</button>
+          <button
+            type="button"
+            class="modal__close-btn"
+            aria-label="Close modal"
+          ></button>
           <h2 class="modal__title">Edit profile</h2>
           <form class="modal__form">
             <label for="profile-name-input" class="modal__label">
@@ -121,6 +123,7 @@
                 type="text"
                 class="modal__input"
                 placeholder="Type your name"
+                required
               />
             </label>
             <label for="profile-description-input" class="modal__label">
@@ -130,6 +133,7 @@
                 type="text"
                 class="modal__input"
                 placeholder="Describe yourself"
+                required
               />
             </label>
             <button type="submit" class="modal__submit-btn">Save</button>
@@ -148,6 +152,7 @@
                 type="url"
                 class="modal__input"
                 placeholder="Place a link to the picture"
+                required
               />
             </label>
             <!-- update below -->
@@ -158,6 +163,7 @@
                 type="text"
                 class="modal__input"
                 placeholder="Type your caption"
+                required
               />
             </label>
             <button type="submit" class="modal__submit-btn">Save</button>

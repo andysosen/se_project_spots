@@ -9,11 +9,11 @@
 
 .card__title {
   margin: 0;
-  max-width: 235px;
+  max-width: 353px;
   font-size: 20px;
   line-height: 120%;
   font-weight: 500;
-  text-overflow: ellipsis;
+  text-overflow: hidden;
   white-space: nowrap;
   overflow: visible;
   color: #212121;
@@ -45,7 +45,7 @@
   }
 
   .card__title {
-    max-width: 95px;
+    max-width: 235px;
     font-size: 16px;
     line-height: 100%;
   }
